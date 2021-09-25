@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color:black;
+}
+
+h2,h3,h4{
+    color: azure;
+}
+
+.todo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.principal{
+    margin: 25px 70px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.titulo{
+    color: azure;
+    margin: 50px 60px 5px 0px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 60%;
+   
+}
+img{
+    width: 250px;
+    height: 270px;
+    border-radius: 20px;
+    text-align: left;
+}
+.foto{
+    
+    display: flex;
+    text-align: left;
+    margin: 50px 10px 10px 50px;
+
+}
+
+.info {
+    margin: 50px 30px 10px 10px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.info h3{
+   
+    text-align: left;
+    font-weight: lighter;
+}
+
+.linea{
+    margin: 90px 10px 10px 10px;
+    display: flex;
+
+}
+
+.perex{
+    margin: 1px 10px 10px 50px;
+    width: 100%;
+    max-width: 400px;
+    
+
+}
+.perfil h3{
+
+    text-align: justify;
+    font-weight:lighter;
+}
+
+
+.experiencia h3{
+
+    text-align: justify;
+    font-weight: lighter;
+    
+}
+
+.educacion{
+    text-align: center;
+    width: 130% ;
+
+
+}
+
+.educacion h3{
+    font-weight: lighter;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .educacion{
+        width: 100%;
+    }
+    .perex{
+        margin-left: 30px;
+    
+    }
+}
+
+
